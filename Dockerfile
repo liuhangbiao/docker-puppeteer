@@ -23,3 +23,4 @@ RUN  apt-get update \
 ADD package.json package-lock.json /
 RUN npm install
 RUN apt-get install -y git --no-install-recommends
+RUN npm i -g bower
